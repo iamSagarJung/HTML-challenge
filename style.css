@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,800;1,200&family=Pacifico&family=Poppins:ital,wght@1,200&family=Roboto:ital,wght@1,900&family=Smooch+Sans:wght@200&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+/* ##############utility classes################## */
+.text-grey{
+    color:rgba(104, 103, 103, 0.849);
+}
+.container{
+    max-width: 1200px;
+    width:80%;
+    margin:auto;
+}
+/* ####################navbar################# */
+*{
+    margin:0;
+    padding:0;
+}
+.logo h1{
+    font-family: 'Pacifico', cursive;
+}
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+
+}
+.menu li{
+    display: block;
+    list-style: none;
+}
