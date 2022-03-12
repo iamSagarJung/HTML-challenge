@@ -8,6 +8,24 @@
 .text-grey{
     color:rgba(104, 103, 103, 0.849);
 }
+.text-light{
+    color:#ffffff;
+}
+.bg-green{
+    background-color: #1790a0fb;
+}
+.lg-heading{
+    font-size: 36px;
+    font-weight:400 ;
+    line-height: 44px;
+    letter-spacing: 2px;
+}
+.md-heading{
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 400;
+    letter-spacing: 1.8px;
+}
 
 /* ####################navbar################# */
 *{
@@ -16,6 +34,8 @@
 }
 .logo h1{
     font-family: 'Pacifico', cursive;
+    margin-left:3rem;
+    color:#1791A0
 }
 .navbar{
     background-color: #ffff;
@@ -33,9 +53,10 @@
     display: flex;
     padding:1rem;
     font-family: 'Overpass', sans-serif;
+    margin-right:3rem;
 }
 .menu-items a{
-    padding:8px;
+    padding:18px;
     text-decoration: none;
     color:#808080
 
@@ -47,5 +68,18 @@
 /* #############showcase############## */
 
 .showcase{
-    background:url(https://picsum.photos/seed/picsum/200/300)
+    position:relative;
+    font-family: 'Overpass', sans-serif;
+    height:698px;
+    background:url("img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.showcase-content{
+    position:absolute;
+    width:480px;
+    height:430px;
+    left: 838px;
+    top:90px;
 }
