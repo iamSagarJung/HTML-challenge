@@ -8,30 +8,47 @@
 .text-grey{
     color:rgba(104, 103, 103, 0.849);
 }
+
 .text-light{
     color:#ffffff;
 }
+
 .bg-green{
     background-color: #1790a0fb;
 }
+
 .lg-heading{
     font-size: 36px;
     font-weight:400 ;
     line-height: 44px;
     letter-spacing: 2px;
 }
+
 .md-heading{
-    font-size: 28px;
+    font-size: 23px;
     line-height: 38px;
-    font-weight: 400;
+    font-weight: 100;
     letter-spacing: 1.8px;
 }
 
-/* ####################navbar################# */
-*{
-    margin:0;
-    padding:0;
+.vs-heading{
+    font-size: 12px;
+    line-height: 20px;
 }
+
+.btn{
+    padding:18px;
+    text-decoration: none;
+   
+}
+
+.icon{
+    /* font-size: 11px; */
+}
+
+
+/* ####################navbar################# */
+
 .logo h1{
     font-family: 'Pacifico', cursive;
     margin-left:3rem;
@@ -55,12 +72,7 @@
     font-family: 'Overpass', sans-serif;
     margin-right:3rem;
 }
-.menu-items a{
-    padding:18px;
-    text-decoration: none;
-    color:#808080
 
-}
 .menu-items a:hover{
     color:#1791A0
 }
@@ -76,10 +88,47 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-.showcase-content{
+.showcase .showcase-content{
     position:absolute;
-    width:480px;
+    max-width:480px;
     height:430px;
     left: 838px;
-    top:90px;
+    top:0px;
+}
+.showcase-content .content{
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    margin:1rem 0;
+}
+.showcase-content a:hover{
+    color:black;
+}
+.vs-heading{
+    margin-top: 1rem;
+}
+.social-icons{
+    position:absolute;
+    display: flex;
+    align-items: center;
+    top:580px;
+    left:838px;
+}
+.icons i:hover{
+    color:#1791A0;
+}
+.dots{
+    position:absolute;
+    color:white;
+    left:692px;
+    top:639px;
+    align-items: center;
+}
+.dots i{
+    font-size: 7px;
+}
+.dots .rd{
+    font-size: 12px;
+    background-color: white;
+    border-radius: 50%;
+
 }
